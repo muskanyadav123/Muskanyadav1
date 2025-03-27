@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("AI Assistance.jpg");
+    background-size: cover;
+    color: white;
+    transition: background 0.3s;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.listen-btn, .toggle-btn {
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.listen-btn:hover, .toggle-btn:hover {
+    background-color: blue;
+}
+
+.history {
+    margin-top: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.history p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.dark-mode {
+    background: #111;
+    color: #fff;
+}
